@@ -1,0 +1,13 @@
+# Write a Python program to calculate the sum of three given numbers,
+# if the values are equal then return three times of their sum.
+
+number_1 = int(input('enter number_1 : '))
+number_2 = int(input('enter number_2 : '))
+number_3 = int(input('enter number_3 : '))
+
+result = number_1 + number_2 + number_3
+if number_1 == number_2 == number_3:
+    my_sum = result*3
+    print(my_sum)
+else:
+    print('values are not equal: ', result)
